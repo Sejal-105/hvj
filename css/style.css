@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.upto{
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+}
+.upto:after{
+    content:'';
+    position:absolute;
+    left:36.3%;
+    bottom: 0;
+    height:4px;
+    width:27.5%;
+    background:#FE7865;
+
+}
+
+.box1{
+    position:relative;
+
+}
+.box1 img{
+    position: absolute;
+    top:-3rem;
+}
+
+/* .box2{
+    position:relative;
+
+}
+.box2 img{
+    position: absolute;
+    top:-5rem;
+} */
+.st{
+    position: relative;
+}
+.st img{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.rev{
+    position: relative;
+    left: 180px;
+}
+
+.box3{
+    position:relative;
+
+}
+.box3 img{
+    position: absolute;
+    right:-2rem;
+    bottom: -1rem;
+}
+
+
+.box4{
+    position:relative;
+
+}
+.box4 img{
+    position: absolute;
+    bottom:-2rem;
+    left:-4rem;
+}
+
+.box5{
+    position:relative;
+
+}
+.box5 img{
+    position: absolute;
+    left:-1rem;
+}
+
+/* 
+.box3{
+    position:relative;
+
+}
+.box3 img{
+    position: absolute;
+    right:-4rem;
+    bottom: -2rem;
+} */
+
+.box7{
+    position:relative;
+
+}
+.box7 img{
+    position: absolute;
+    left:-1rem;
+}
+
+.box8{
+    position:relative;
+
+}
+.box8 img{
+    position: absolute;
+    right: -4rem;
+}
